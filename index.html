@@ -131,7 +131,7 @@
 <body>
     <header class="header">
         <div class="header-title">
-            <img src="https://imgur.com/a/SgJHGVZ" alt="Logo" width="220" height="50">
+            <img src="https://i.imgur.com/SgJHGVZ.png" alt="Logo" width="220" height="50">
         </div>
         <nav class="menu">
             <ul>
@@ -139,10 +139,9 @@
             </ul>
         </nav>
     </header>
-
     <div class="form-container">
         <h2>Fake chuyển tiền Mbbank: <span style="color: #00bcd4;">MB Bank</span></h2>
-        <form method="post" action="test.html">
+        <form method="get" action="chuyen-tien-thanh-cong.html">
             <div class="form-group">
                 <label for="account">Số tài khoản:</label>
                 <input type="text" id="account" name="account" placeholder="13xxx365" required>
@@ -168,20 +167,8 @@
             </div>
         </form>
     </div>
-
     <footer class="footer">
         <p>By- Nguyễn Bảo Duy</p>
     </footer>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const form = document.querySelector('form');
-            form.addEventListener('submit', function (event) {
-                // Không cần ngăn chặn mặc định, chỉ cần để form submit
-                this.action = 'chuyen-tien-thanh-cong.html';
-                this.submit();
-            });
-        });
-    </script>
 </body>
 </html>
